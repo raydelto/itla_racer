@@ -10,4 +10,6 @@ This simple app simulates a car racing track. You can pratice the following Obje
 * Swing
 * AWT Layout handling
 
+You can see a screen shot of this simple simulation at: http://www.raydelto.org/screen_shots/ITLA_Racers.png
+
 Find more exercises like this on http://www.raydelto.org.
