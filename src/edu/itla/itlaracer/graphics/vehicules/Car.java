@@ -1,14 +1,14 @@
-package edu.itla.itlaracer.graficos.vehicules;
+package edu.itla.itlaracer.graphics.vehicules;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 
 public class Car extends Vehicule{
-	public Car(String nombreImagen){
-		setNombreImagen(nombreImagen);
-		JLabel etiqueta = new JLabel();
-		etiqueta.setIcon(new ImageIcon(nombreImagen));
-		setLabel(etiqueta);
+	public Car(String imageName){
+		setImageName(imageName);
+		JLabel label = new JLabel();
+		label.setIcon(new ImageIcon(imageName));
+		setLabel(label);
 	}
 	
 	@Override

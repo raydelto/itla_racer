@@ -1,4 +1,4 @@
-package edu.itla.itlaracer.graficos.vehicules;
+package edu.itla.itlaracer.graphics.vehicules;
 
 import javax.swing.JLabel;
 
@@ -16,7 +16,7 @@ public abstract class Vehicule extends Thread{
 	public String getImageName() {
 		return imageName;
 	}
-	public void setNombreImagen(String imageName) {
+	public void setImageName(String imageName) {
 		this.imageName = imageName;
 	}
 	public int getVelocity() {

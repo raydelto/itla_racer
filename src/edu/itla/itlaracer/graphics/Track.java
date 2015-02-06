@@ -1,12 +1,11 @@
 package edu.itla.itlaracer.graphics;
 
-import java.awt.Color;
 import java.awt.GridLayout;
 import java.util.ArrayList;
 
 import javax.swing.JFrame;
 
-import edu.itla.itlaracer.graficos.vehicules.Vehicule;
+import edu.itla.itlaracer.graphics.vehicules.Vehicule;
 
 public class Track extends JFrame{
 	
@@ -15,7 +14,6 @@ public class Track extends JFrame{
 	public Track(){
 		super("ITLA Racer v0.1");
 		setExtendedState(JFrame.MAXIMIZED_BOTH);
-		getRootPane().setBackground(Color.GRAY);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		vehicules = new ArrayList<Vehicule>();
 		
