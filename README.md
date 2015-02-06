@@ -1,5 +1,5 @@
-# itla_racer
-ITLA Race Track Simulation
+# ITLA Race Track Simulation
+
 
 This is a Thread practice created on class during a Object Oriented Programming Course at Las Americas Institute of Technology on February 5 2015. 
 
